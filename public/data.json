@@ -1,0 +1,363 @@
+
+[
+  {
+    "image": "https://picsum.photos/200?random=1",
+    "title": "TaskMaster Pro",
+    "companyName": "TechNova Ltd.",
+    "id": 1,
+    "description": "TaskMaster Pro is the ultimate productivity suite, transforming how individuals and teams approach daily work. This comprehensive task management application is designed to help you stay meticulously organized, dramatically boost team productivity, and achieve complex objectives efficiently. You can create, organize, and prioritize tasks with intuitive drag-and-drop task boards, customizable categories, and mandatory deadlines to ensure that no critical item is ever missed. Beyond basic list-making, TaskMaster Pro supports real-time collaboration, allowing team members to update statuses and share documents seamlessly. It also features insightful productivity analytics, giving you clear visualizations of your workflow patterns. This allows you to optimize your work habits for a better work-life balance and structured efficiency, making it an indispensable tool for managing projects large and small.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 680 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=2",
+    "title": "CodeFlow IDE",
+    "companyName": "DevGenius Inc.",
+    "id": 2,
+    "description": "CodeFlow IDE revolutionizes software development with a powerful, fully cloud-based Integrated Development Environment. It provides a full coding environment accessible from any device, eliminating the need for complex local setups. Developers benefit from real-time collaborative editing, live code sharing, and integrated version control, making team development smoother than ever. The platform supports over 20 popular programming languages and includes advanced debugging tools, intelligent code completion, and built-in testing frameworks. Furthermore, CodeFlow integrates seamlessly with popular CI/CD pipelines, offering one-click deployment to major cloud providers. Whether you are a solo freelancer or part of a large enterprise team, CodeFlow IDE accelerates your development cycle from concept to production, allowing you to focus purely on innovation and clean code.",
+    "size": 180,
+    "reviews": 4500,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=3",
+    "title": "PixelArt Studio",
+    "companyName": "Creative Minds Co.",
+    "id": 3,
+    "description": "PixelArt Studio is the premier design tool for creating stunning, high-resolution pixel art assets for games, NFTs, and digital projects. Designed for artists of all skill levels, it features an intuitive interface that simplifies complex techniques. The app offers advanced features like non-destructive layer management, customizable brushes, and an expansive color palette editor with dither patterns. Key functionality includes dedicated tools for animation, allowing users to effortlessly create smooth sprites and GIFs. Its unique selling point is the ability to export final assets into various industry-standard formats, including ready-to-use sprite sheets with precise scaling options. Unleash your retro-inspired creativity and produce professional-quality pixel artwork with the speed and precision that industry professionals demand.",
+    "size": 85,
+    "reviews": 2300,
+    "ratingAvg": 4.5,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=4",
+    "title": "DataViz Explorer",
+    "companyName": "Analyze Corp.",
+    "id": 4,
+    "description": "DataViz Explorer is a robust analytical platform designed to transform raw, complex data into clear, compelling, and interactive visualizations. It offers support for importing data from virtually any source, including CSV, SQL databases, and cloud storage providers. Users can choose from over 50 dynamic chart types, ranging from simple bar graphs to complex Snake diagrams and geographical heatmaps. The tool features a powerful, yet easy-to-use, drag-and-drop interface, enabling quick prototype generation without needing any coding expertise. Share your insights easily with secure export options and collaborative workspaces. DataViz Explorer empowers business analysts, researchers, and data scientists to communicate their findings effectively, turning overwhelming numbers into actionable business intelligence that drives informed decision-making.",
+    "size": 62,
+    "reviews": 900,
+    "ratingAvg": 4.7,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=5",
+    "title": "SecureVault VPN",
+    "companyName": "PrivacyGuard Tech",
+    "id": 5,
+    "description": "SecureVault VPN delivers uncompromising digital privacy and security with military-grade AES-256 encryption. Our global network of ultra-fast servers in over 60 countries ensures you can browse, stream, and download without speed loss or location restrictions. We operate under a strict no-logs policy, meaning your online activity remains completely anonymous and private from governments, ISPs, and hackers. Key features include an automatic Kill Switch to protect your data if the connection drops, and Split Tunneling, which lets you choose which apps route through the VPN. SecureVault is your essential tool for bypassing geo-restrictions, securing public Wi-Fi connections, and maintaining complete anonymity for your personal and professional digital life, giving you true peace of mind.",
+    "size": 25,
+    "reviews": 7800,
+    "ratingAvg": 4.9,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=6",
+    "title": "FinanceTrack 365",
+    "companyName": "MoneyWise Solutions",
+    "id": 6,
+    "description": "Take full control of your financial future with FinanceTrack 365, the intelligent personal finance manager. This application seamlessly integrates with your bank accounts through secure, read-only connections to provide a holistic view of your money. It excels at helping you budget effectively, automatically categorizing expenses and providing real-time alerts when you near your spending limits. Advanced features include machine learning-driven financial forecasting, which helps you visualize your savings trajectory over months or years, and debt payoff optimization strategies. FinanceTrack 365 removes the guesswork from money management, helping you identify wasteful spending, set realistic savings goals, and ultimately achieve financial freedom with a clear, actionable plan.",
+    "size": 90,
+    "reviews": 3100,
+    "ratingAvg": 4.3,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=7",
+    "title": "Travel Buddy App",
+    "companyName": "Wanderlust Digital",
+    "id": 7,
+    "description": "Travel Buddy App is your indispensable, all-in-one companion for seamless global exploration. From the moment you start planning to the day you return, this app handles every detail. Use our intuitive itinerary planner to organize flights, accommodations, and activities into a single, chronological timeline. The app provides curated local recommendations for dining, sightseeing, and hidden gems, personalized to your travel style. Crucially, it features a robust offline map capability, ensuring navigation even without data access, alongside a real-time currency converter. Collaborate with fellow travelers by sharing and modifying trip plans instantly. Travel Buddy minimizes stress and maximizes adventure, allowing you to immerse yourself fully in the experience of a new destination.",
+    "size": 110,
+    "reviews": 5500,
+    "ratingAvg": 4.4,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=8",
+    "title": "E-Commerce Launchpad",
+    "companyName": "RetailTech Labs",
+    "id": 8,
+    "description": "E-Commerce Launchpad is the ultimate all-in-one platform for entrepreneurs looking to start, manage, and scale their online retail business. With a powerful drag-and-drop website builder, you can design a beautiful, responsive storefront in minutes without any coding knowledge. The platform includes fully integrated inventory management tools that track stock levels across all channels in real time, preventing overselling and streamlining logistics. Secure payment processing is handled natively, supporting all major credit cards and digital wallets. Beyond the store, Launchpad offers built-in SEO tools and marketing features, including email automation and social media integration. Simplify your operations, grow your sales, and manage your entire digital storefront from one powerful dashboard.",
+    "size": 75,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=9",
+    "title": "Mindful Meditation",
+    "companyName": "ZenFlow Health",
+    "id": 9,
+    "description": "Find calm, reduce stress, and improve your focus with Mindful Meditation, your daily guide to a healthier mind. The app provides an extensive library of guided meditations tailored for beginners and experienced practitioners alike, covering topics like anxiety relief, concentration, and emotional balance. Exclusive features include a curated collection of sleep stories narrated by soothing voices and ambient soundscapes to promote deep, restorative sleep. Personalized meditation programs adapt to your progress, helping you build a sustainable daily habit. Track your streak, monitor your emotional state with daily check-ins, and join a supportive community. Mindful Meditation is more than just an app; it's a commitment to your mental well-being, helping you live a more present and centered life every day.",
+    "size": 30,
+    "reviews": 9200,
+    "ratingAvg": 4.9,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 45 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=10",
+    "title": "Recipe Remix",
+    "companyName": "Gourmet Apps",
+    "id": 10,
+    "description": "Recipe Remix transforms your kitchen routine by making meal planning creative, flexible, and waste-free. Search and save from a massive library of thousands of curated recipes, featuring global cuisines and dietary-specific options. The app's signature 'Remix' feature allows you to input ingredients you already have at home, and it intelligently suggests substitutions or alternative recipes to minimize food waste. Detailed instructional videos and step-by-step guides ensure cooking success for chefs of all skill levels. Organize your week with the meal planner, automatically generate shopping lists, and easily adjust serving sizes. Recipe Remix is designed to inspire culinary confidence, helping you discover new favorites and making the most out of your pantry every single day.",
+    "size": 55,
+    "reviews": 3800,
+    "ratingAvg": 4.2,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=11",
+    "title": "CloudConnect File",
+    "companyName": "SyncStream Solutions",
+    "id": 11,
+    "description": "CloudConnect File offers secure, virtually unlimited cloud storage and effortless file sharing for both personal backups and collaborative professional projects. Our system utilizes end-to-end encryption to guarantee that only you and your intended recipients can access your data, ensuring maximum privacy. Seamlessly synchronize files across all your devices, from desktop to mobile, with automatic backup features running in the background. Collaborative workspaces allow teams to co-edit documents in real-time and manage version history easily. CloudConnect replaces outdated file servers, offering a fast, reliable, and highly scalable solution for storing large media files, critical documents, and entire digital archives with confidence and ease.",
+    "size": 22,
+    "reviews": 5100,
+    "ratingAvg": 4.7,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=12",
+    "title": "GameDev Engine X",
+    "companyName": "UnityVerse Studios",
+    "id": 12,
+    "description": "GameDev Engine X is a leading cross-platform game development engine, providing all the necessary tools for creating stunning 2D and 3D experiences. It features a robust visual scripting system, allowing non-programmers to design complex game logic without writing a single line of code, while also supporting C# for experienced developers. The integrated Asset Store provides a massive marketplace of ready-to-use models, sounds, and scripts to jump start your project. Deployment is simplified with one-click exporting to mobile, PC, and console platforms. GameDev Engine X is built for rapid prototyping and high-fidelity production, making it the perfect choice for indie developers and professional studios aiming to bring their immersive game worlds to life.",
+    "size": 350,
+    "reviews": 12000,
+    "ratingAvg": 4.1,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=13",
+    "title": "SmartHome Hub",
+    "companyName": "ConnectAll Tech",
+    "id": 13,
+    "description": "SmartHome Hub acts as the central brain for your entire connected living space, simplifying complex automation into a single, user-friendly application. It offers universal compatibility, effortlessly supporting Z-Wave, Zigged, and Wi-Fi protocols to connect all your lights, locks, cameras, and thermostats regardless of brand. Create custom scenes and advanced routines, such as automatically adjusting temperature when you leave the house or locking doors at sunset. The app features voice command integration with all major smart assistants and provides real-time security alerts and video feeds. SmartHome Hub is designed to enhance comfort, improve energy efficiency, and provide complete control over your home's security and ambiance, all from a single screen.",
+    "size": 40,
+    "reviews": 2800,
+    "ratingAvg": 4.5,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=14",
+    "title": "LangLearn AI",
+    "companyName": "GlobalSpeak Education",
+    "id": 14,
+    "description": "LangLearn AI leverages cutting-edge artificial intelligence to deliver a truly personalized and effective language learning experience. Choose from over 15 languages and begin your journey with dynamic lessons that adapt in real time to your learning speed and mastery level. The key feature is the AI conversational partner, which simulates natural dialogue, providing immediate grammar correction and pronunciation feedback, crucial for fluency. Structured curriculum covers vocabulary, syntax, and cultural context through engaging, game field modules. From basic phrases to professional proficiency, LangLearn AI offers an immersive, scientifically-backed approach to mastering a new language faster and more effectively than traditional methods.",
+    "size": 95,
+    "reviews": 6000,
+    "ratingAvg": 4.8,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=15",
+    "title": "Fitness Tracker Z",
+    "companyName": "ActiveLife Metrics",
+    "id": 15,
+    "description": "Fitness Tracker Z is the essential comprehensive health and wellness application, designed to manage every facet of your active life. Seamlessly track over 100 different workout types, from running and cycling to yoga and strength training, with precise GPS and heart rate monitoring. The app integrates advanced sleep monitoring that analyzes sleep cycles and provides personalized recommendations for better rest. Nutritional management is simplified with a vast food database and a powerful calorie and macro tracker. Unique to Fitness Tracker Z is the goal-setting engine that uses your historical data to create adaptive workout plans that continually challenge you, ensuring you stay motivated and achieve sustainable, long-term health and fitness goals.",
+    "size": 68,
+    "reviews": 8500,
+    "ratingAvg": 4.4,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 65 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=16",
+    "title": "CMS Builder X",
+    "companyName": "WebForge Solutions",
+    "id": 16,
+    "description": "CMS Builder X empowers businesses and creators to design, launch, and manage professional websites with a cutting-edge Content Management System. Our intuitive drag-and-drop interface requires absolutely no coding, making high-quality web design accessible to everyone. Choose from hundreds of customizable, mobile-responsive templates that ensure a stunning user experience on any device. The system includes robust tools for SEO optimization, e-commerce integration, and user role management. With built-in analytics, you can monitor site traffic and user behavior in real-time. CMS Builder X provides a secure, reliable, and scalable hosting environment, ensuring your site remains fast and accessible as your audience grows, taking the complexity out of digital presence management.",
+    "size": 150,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=17",
+    "title": "Music Remix Pad",
+    "companyName": "AudioFlow Labs",
+    "id": 17,
+    "description": "Music Remix Pad is the essential tool for DJs, producers, and audio enthusiasts looking to create professional-quality tracks and live mixes. This virtual mixing console provides a comprehensive soundboard with multi-track recording, real-time looping, and an extensive library of genre-specific samples, beats, and instrument loops. The intuitive interface features professional-grade effects, including reverb, delay, and equalization, all controllable via customizable MIDI mapping. Whether you are laying down a complex studio track or performing a live set, the Remix Pad offers unparalleled creative flexibility. Record, edit, and master your music directly within the app, then export your final creation in high-fidelity audio formats. Start your musical journey and turn your device into a powerful mobile studio.",
+    "size": 130,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=18",
+    "title": "Project Pulse",
+    "companyName": "Synergy Software",
+    "id": 18,
+    "description": "Project Pulse is the leading software solution for agile development and team collaboration, designed to keep your projects on track and your teams synchronized. It provides dynamic tools for scrum masters and development teams, allowing you to easily define, track, and manage sprints with customizable Kanban boards and timeline views. Key features include effortless backlog grooming, automated workload balancing, and clear visualization of team velocity and burn down charts. The platform integrates seamlessly with Git repositories and communication tools like Slack. Project Pulse minimizes administrative overhead and maximizes development time, providing the clear, objective data necessary for efficient iteration planning and successful, on-time project delivery.",
+    "size": 50,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=19",
+    "title": "Stock Portfolio Pro",
+    "companyName": "MarketView Data",
+    "id": 19,
+    "description": "Stock Portfolio Pro is the essential tool for serious investors, offering real-time tracking and advanced analytical features for managing your financial assets. Monitor your entire investment portfolio across multiple brokerages with secure, read-only API connections. The app delivers lightning-fast stock quotes, personalized news feeds, and critical alerts triggered by pre-set price targets or major market shifts. Advanced charting tools allow for deep technical analysis with dozens of indicators and customizable overlays. Whether you are tracking equities, commodities, or cryptocurrencies, Portfolio Pro provides the comprehensive data and intuitive interface required to make informed trading decisions and maximize your returns in a volatile market.",
+    "size": 35,
+    "reviews": 4300,
+    "ratingAvg": 4.8,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 28 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=20",
+    "title": "Photo Editor Max",
+    "companyName": "ImageForge Tech",
+    "id": 20,
+    "description": "Photo Editor Max provides professional-grade photo manipulation tools in a streamlined, accessible mobile application. Transform your images with powerful AI enhancements, including intelligent object recognition and one-tap background replacement. It supports non-destructive editing with full layer management, allowing precise control over every element of your composition. The vast library of customizable filters, artistic effects, and professional adjustment tools ensures you can achieve any desired aesthetic. Whether you are a social media influencer needing quick edits or a professional photographer requiring detailed retouching, Photo Editor Max delivers the performance and features of desktop software right on your device, making complex editing fast and intuitive.",
+    "size": 105,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  }
+]
