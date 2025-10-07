@@ -5,9 +5,11 @@ import { Outlet } from 'react-router';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='bg-[#F5F5F5]'>
            <Navbar></Navbar>
-           <Outlet></Outlet>
+           <div>
+            <Outlet></Outlet>
+           </div>
            <Footer></Footer>
         </div>
     );
