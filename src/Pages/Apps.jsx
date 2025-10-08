@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import useProducts from '../Hooks/useProducts';
 import Product from '../Components/Product';
-import { Link } from 'react-router';
+
 
 
 const Apps = () => {
     const {products} = useProducts()
     const [search, setSearch] = useState('');
+  
     const term = search.trim().toLocaleLowerCase()
     const searchProduct = term? products.filter(product=> product.title.toLocaleLowerCase().includes(term)) : products
-    // console.log(searchProduct);
+  
+      
 
 
 

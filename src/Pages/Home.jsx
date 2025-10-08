@@ -6,9 +6,9 @@ import Product from '../Components/Product';
 import useProducts from '../Hooks/useProducts';
 
 const Home = () => {
-//  const products = useLoaderData();
- const {products, loading, error} = useProducts()
-//  console.log(data.products);
+
+ const {products} = useProducts()
+
  const trendingApps = products.slice(0, 8)
 
 

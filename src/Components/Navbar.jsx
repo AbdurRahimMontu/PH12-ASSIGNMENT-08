@@ -12,20 +12,19 @@ const Navbar = () => {
         </Link>
 
         <ul className="space-x-3 font-semibold">
-          <NavLink
+      <NavLink
             to="/"
-            className={({ isActive })  => (isActive ? "text-red-600 border-b-2 border-red-500" : "")}>
-            <img src="" alt="" />
+            className={({ isActive })  => (isActive ? "text-red-600 border-b-2 border-red-500" : "text-black")}>
             Home
           </NavLink>
           <NavLink
             to="/apps"
-            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-red-500" : "")}>
+            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-red-500" :"text-black")}>
             Apps
           </NavLink>
           <NavLink
             to="/installation"
-            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-red-500" : "")}>
+            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-red-500" : "text-black")}>
             Installation
           </NavLink>
         </ul>
