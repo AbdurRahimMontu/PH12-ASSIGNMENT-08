@@ -18,6 +18,7 @@ const Banner = () => {
                      <img src={banner} alt=""  className='w-full h-[400px]'/>
                   </figure>
             </div>
+    
         </div>
     );
 };
