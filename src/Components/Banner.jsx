@@ -8,8 +8,8 @@ const Banner = () => {
                  <h1 className='text-5xl text-center font-bold'>We Build <br /><span className='text-[#804FE8]'>Productive</span> Apps</h1>
                  <p className='text-center'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                  <div className='text-center space-x-2'>
-                    <button className='btn'>Google Play</button>
-                    <button className='btn'>App Store</button>
+                    <button className='btn btn-outline'>Google Play</button>
+                    <button className='btn btn-outline'>App Store</button>
                  </div>
     </div>
       </div>
