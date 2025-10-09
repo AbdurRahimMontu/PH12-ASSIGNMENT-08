@@ -9,7 +9,7 @@ import { ToastContainer, toast} from 'react-toastify';
 import img from '../assets/App-Error.png'
 
 const ProductDetails = () => {
-      const [install, setInstall] = useState(false);
+  const [install, setInstall] = useState(false);
    const {id } =useParams()
    const {products, loading} = useProducts()
   const product = products.find(p => String(p.id) === id)
@@ -124,7 +124,7 @@ const ProductDetails = () => {
            <ToastContainer />
        </div>:<div className='flex gap-2 pt-8 flex-col justify-center items-center '>
       <img src={img} alt="" width={200}/>
-      <h2 className='text-2xl font-bold'>OOPS!! APP IS NOT FOUND</h2>
+      <h2 className='text-2xl font-bold'>OOPS!!APP IS NOT FOUND</h2>
     <p className='opacity-80'>The App you are requesting is not found on our system.  please try another apps</p>
       <Link to={'/apps'} className='bg-[#804FE8] text-white btn font-semibold hover:scale-105 transition ease-in-out' >Go Back</Link>
     </div>
