@@ -1,5 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
+import img from '../assets/App-Error.png'
+import { Link } from 'react-router';
 
 const Installation = () => {
      const [appLists, setAppLists] = useState([])
@@ -40,9 +42,11 @@ const Installation = () => {
 
   return (
 <div className='w-7xl mx-auto '>
-  <div>
+<div>
+    <div>
   <div className='flex justify-between items-center pt-5'>
-        <h1>sortedItem : { sortedItem.length}</h1>
+        <h1 className='font-bold text-xl'> ({sortedItem.length}) SortedItem</h1>
+ 
        
   <select className='border p-1' value={sortOrder} onChange={e=> setSortOrder(e.target.value)}>
             <option value="none">Sort by downloads</option>
@@ -52,7 +56,8 @@ const Installation = () => {
           
   </div>
   </div>
-    <div className='py-5 space-y-5 '>
+  {
+     sortedItem.length>0?  <div className='py-5 space-y-5 '>
      {
 sortedItem.map(p => 
     <div key={p.id} className='shadow-2xl border p-3 flex justify-between items-center'>
@@ -66,7 +71,7 @@ sortedItem.map(p =>
          
         </div>
         <div>
-        <button onClick={()=>handleRemove(p.id)} className='btn btn-outline'>Remove</button>
+        <button onClick={()=>handleRemove(p.id)} className='btn hover:scale-105 transition ease-in-out  bg-green-700 text-white'>Uninstall</button>
         </div>
   </div>
         
@@ -74,7 +79,15 @@ sortedItem.map(p =>
       )
        
      }
+    </div>: <div className='flex gap-2 flex-col justify-center items-center '>
+      <img src={img} alt="" width={170}/>
+      <h2 className='text-2xl font-bold'>OOPS!!APP NOT FOUND</h2>
+    <p className='opacity-80'>The App you are requesting is not found on our system.  please try another apps</p>
+      <Link to={'/apps'} className='bg-[#804FE8] text-white btn font-semibold hover:scale-105 transition ease-in-out' >Go Back</Link>
     </div>
+  }
+  
+</div>
 
 </div>
 

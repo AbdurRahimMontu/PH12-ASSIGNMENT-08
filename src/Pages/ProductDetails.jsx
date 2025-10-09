@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams } from 'react-router';
-import { Bar, CartesianGrid, ComposedChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, CartesianGrid, ComposedChart, Label, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import download from '../assets/icon-downloads.png';
 import rating from '../assets/icon-ratings.png';
 import review from '../assets/icon-review.png';
@@ -77,24 +77,30 @@ const data = ratings;
             </div>
           </div>
           <div>
-
-            <div className='mt-10' style={{ width: "100%", height: 300 }}>
+          <div className='mt-5'>
+            <h3 className='text-2xl font-semibold pb-1'>Ratings</h3>
+          </div>
+            <div   style={{ width: "100%", height: 300 }}>
+            
    <ResponsiveContainer>
+   
         <ComposedChart
+        
           layout="vertical"
           width={500}
-          height={400}
+          height={300}
           data={data}
           margin={{
-            top: 20,
-            right: 20,
-            bottom: 20,
-            left: 20,
+            top: 10,
+            bottom: 10,
+           
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
+          
           <XAxis type="number" />
           <YAxis dataKey="name" type="category" reversed={true}   />
+         
           <Tooltip />
           <Legend />
           <Bar dataKey="count" barSize={20} fill="#FF8811" />

@@ -15,17 +15,17 @@ const Navbar = () => {
         <ul className="space-x-3 font-semibold">
       <NavLink
             to="/"
-            className={({ isActive })  => (isActive ? "text-red-600 border-b-2 border-green-700" : "text-black")}>
+            className={({ isActive })  => (isActive ? "text-[#804FE8] border-b-2 border-[#804FE8]" : "text-black")}>
             Home
           </NavLink>
           <NavLink
             to="/apps"
-            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-green-700" :"text-black")}>
+            className={({ isActive }) => (isActive ? "text-[#804FE8] border-b-2 border-[#804FE8]" :"text-black")}>
             Apps
           </NavLink>
           <NavLink
             to="/installation"
-            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-green-700" : "text-black")}>
+            className={({ isActive }) => (isActive ? "text-[#804FE8] border-b-2 border-[#804FE8]" : "text-black")}>
             Installation
           </NavLink>
         </ul>
