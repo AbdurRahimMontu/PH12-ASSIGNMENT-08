@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { Link, NavLink } from "react-router";
+import gitHub from '../assets/github-icon.png'
 
 const Navbar = () => {
   return (
@@ -14,22 +15,28 @@ const Navbar = () => {
         <ul className="space-x-3 font-semibold">
       <NavLink
             to="/"
-            className={({ isActive })  => (isActive ? "text-red-600 border-b-2 border-red-500" : "text-black")}>
+            className={({ isActive })  => (isActive ? "text-red-600 border-b-2 border-green-700" : "text-black")}>
             Home
           </NavLink>
           <NavLink
             to="/apps"
-            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-red-500" :"text-black")}>
+            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-green-700" :"text-black")}>
             Apps
           </NavLink>
           <NavLink
             to="/installation"
-            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-red-500" : "text-black")}>
+            className={({ isActive }) => (isActive ? "text-red-600 border-b-2 border-green-700" : "text-black")}>
             Installation
           </NavLink>
         </ul>
         <div>
-          <button className="btn text-white bg-[#804FE8]">Contribute</button>
+          <button className="btn  text-white bg-[#804FE8]">
+           
+            <a href="https://github.com/AbdurRahimMontu" className="flex gap-2" target="_blank" rel="noopener noreferrer">  
+            <img src={gitHub} alt="" width={20} className="rounded-full" />
+             <span>Contribute</span> 
+             </a>
+            </button>
         </div>
       </div>
     </div>

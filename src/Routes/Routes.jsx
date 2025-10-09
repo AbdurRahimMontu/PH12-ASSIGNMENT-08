@@ -31,9 +31,12 @@ const Routes = createBrowserRouter([
             {
                 path:"/apps/:id",
                 element:<ProductDetails></ProductDetails>
-            }
+            },
+              
+           
         ]
-    }
+    },
+
 ])
 
 export default Routes;

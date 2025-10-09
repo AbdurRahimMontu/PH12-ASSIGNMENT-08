@@ -6,7 +6,7 @@ import facebook from '../assets/Facebook (2).png'
 import { Link } from 'react-router';
 const Footer = () => {
     return (
-        <div className='bg-[#001931] text-white '>
+        <div className='bg-[#001931] text-white mt-10 '>
          <div className='flex justify-between items-center w-7xl mx-auto py-5'>
            
         <div className="flex justify-between items-center">
