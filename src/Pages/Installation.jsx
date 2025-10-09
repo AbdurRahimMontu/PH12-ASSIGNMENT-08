@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import img from '../assets/App-Error.png'
 import { Link } from 'react-router';
+import download from '../assets/icon-downloads.png'
+import rating from '../assets/icon-ratings.png'
 
 const Installation = () => {
      const [appLists, setAppLists] = useState([])
@@ -64,9 +66,13 @@ sortedItem.map(p =>
           <div className='flex  items-center gap-5'>
           <img src={p.image} alt="" />
          <div>
-          <p>{p.title}</p>
-          <p>{p.companyName}</p>
-          <p>Downloads : {p.downloads}</p>
+          <p className='text-3xl font-semibold'>{p.title}</p>
+        
+         <div className='flex gap-5'>
+          <p className='flex items-center text-green-700 font-medium gap-2'><img src={download} alt="" width={20}  className='h-5 '/> {p.downloads}</p>
+          <p className='flex items-center text-yellow-600  font-medium gap-2'> <img src={rating} alt="" width={20} className='h-5' /> {p.ratingAvg}</p>
+          <p className='flex items-center  font-medium gap-2'>{p.size}</p>
+         </div>
          </div>
          
         </div>
@@ -80,8 +86,8 @@ sortedItem.map(p =>
        
      }
     </div>: <div className='flex gap-2 flex-col justify-center items-center '>
-      <img src={img} alt="" width={170}/>
-      <h2 className='text-2xl font-bold'>OOPS!!APP NOT FOUND</h2>
+      <img src={img} alt="" width={180}/>
+      <h2 className='text-2xl font-bold'>OOPS!! APP IS NOT FOUND</h2>
     <p className='opacity-80'>The App you are requesting is not found on our system.  please try another apps</p>
       <Link to={'/apps'} className='bg-[#804FE8] text-white btn font-semibold hover:scale-105 transition ease-in-out' >Go Back</Link>
     </div>

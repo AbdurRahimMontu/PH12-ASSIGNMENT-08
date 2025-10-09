@@ -5,6 +5,7 @@ import { Link,  } from 'react-router';
 import Product from '../Components/Product';
 import useProducts from '../Hooks/useProducts';
 
+
 const Home = () => {
 
  const {products} = useProducts()
@@ -35,6 +36,7 @@ const Home = () => {
                 <Link to={'/apps'} className='btn btn-outline ' >See All Product</Link>
             </div>
    </div>
+  
         </div>
     );
 };
